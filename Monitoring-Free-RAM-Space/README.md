@@ -103,18 +103,8 @@ WARNING, Ram is Low
 
 ## 🖼️ Output Screenshot
 
-> Save your screenshot in this folder as:
 
-```
-images/ram_output.png
-```
-
-Then display it using:
-
-```markdown
-![RAM Monitoring Output](images/ram_output.png)```
-
-It will appear like this:
+Below is the output of the script running successfully.
 
 ![RAM Monitoring Output](ram_output.png)
 
