@@ -4,7 +4,22 @@
 
 This Bash script monitors the available RAM on a Linux system.
 
-If the available RAM falls below a predefined threshold, the script displays a warning message. Otherwise, it reports that the available RAM is sufficient.
+If the available RAM falls below a predefined threshold, it displays a warning message. Otherwise, it reports that the available RAM is sufficient.
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Script](#-script)
+- [Features](#-features)
+- [Commands Used](#️-commands-used)
+- [Source Code](#-source-code)
+- [How to Run](#️-how-to-run)
+- [Sample Output](#-sample-output)
+- [Output Screenshot](#-output-screenshot)
+- [Requirements](#-requirements)
+- [Author](#-author)
 
 ---
 
@@ -19,7 +34,7 @@ monitoring_free_ram_space.sh
 ## ⚙️ Features
 
 - Monitors available RAM in real time
-- Displays a warning when free RAM is below the threshold
+- Displays a warning when free RAM is below the configured threshold
 - Beginner-friendly Bash script
 - Lightweight and easy to customize
 
@@ -36,7 +51,7 @@ monitoring_free_ram_space.sh
 
 ---
 
-## 📜 Script
+## 📜 Source Code
 
 ```bash
 #!/bin/bash
@@ -72,17 +87,37 @@ Run the script:
 
 ## 🧪 Sample Output
 
-### When RAM is sufficient
+### RAM is sufficient
 
 ```text
-RAM is Sufficient - 5384 M
+RAM is Sufficient - 2831 M
 ```
 
-### When RAM is low
+### RAM is low
 
 ```text
 WARNING, Ram is Low
 ```
+
+---
+
+## 🖼️ Output Screenshot
+
+> Save your screenshot in this folder as:
+
+```
+images/ram_output.png
+```
+
+Then display it using:
+
+```markdown
+![RAM Monitoring Output](images/ram_output.png)
+```
+
+It will appear like this:
+
+![RAM Monitoring Output](images/ram_output.png)
 
 ---
 
