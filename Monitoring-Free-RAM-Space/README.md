@@ -112,12 +112,12 @@ images/ram_output.png
 Then display it using:
 
 ```markdown
-![RAM Monitoring Output](images/ram_output.png)
+![RAM Monitoring Output](Monitoring-Free-RAM-Space/ram_output.png)
 ```
 
 It will appear like this:
 
-![RAM Monitoring Output](images/ram_output.png)
+![RAM Monitoring Output](Monitoring-Free-RAM-Space/ram_output.png)
 
 ---
 
